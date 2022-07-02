@@ -7,7 +7,7 @@ module.exports = {
     themes: [
       {
         tasktheme: {
-          primary: "#9c1de4",
+          primary: "#03a471",
           secondary: "#ba4dff",
           accent: "#eed3ff",
           neutral: "#3d4451",

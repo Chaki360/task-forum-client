@@ -11,7 +11,7 @@ const Header = () => {
 
     </>
     return (
-        <div className='shadow-xl justify-items-center sticky z-50 top-0'>
+        <div className='shadow justify-items-center sticky z-50 top-0'>
             <div className="navbar bg-base-100 ">
                 <div className="navbar-start">
                     <div className="dropdown">
