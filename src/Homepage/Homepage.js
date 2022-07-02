@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import TasksData from './TasksData/TasksData';
-
+import './Homepage.css'
 const Homepage = () => {
 
     const [tasks, setTasks] = useState([]);
@@ -13,7 +13,7 @@ const Homepage = () => {
         <div>
             <h1 className='text-4xl mb-4 mt-10 text-center  font-bold text-slate-800'>Your Daily Tasks</h1>
 
-            <div className='task justify-items-center'>
+            <div className='tasks justify-items-center'>
                 {tasks.map(task => <TasksData key={task._id} task={task}></TasksData>)}
             </div>
 
