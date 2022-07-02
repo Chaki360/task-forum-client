@@ -9,8 +9,8 @@ const TasksData = ({ task }) => {
                 <input type="checkbox" id="task" />
                 <label for="task">{task.myTask}</label>
                 <div className="card-actions mt-3 justify-end">
-                    <div className="badge badge-outline btn btn-xs">Edit Task</div>
-                    <div className="badge badge-outline btn  btn-xs bg-error text-white">Delete Task</div>
+                    <div className=" btn btn-xs">Edit Task</div>
+                    <div className=" btn  btn-xs bg-error text-white">Delete Task</div>
                 </div>
             </div>
         </div>
